@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>GirlCrew SF</title>
+    <!-- Bootstrap -->
+    <link href="local-assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="local-assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="local-assets/css/local.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Autopilot Pixel -->
+    <script type="text/javascript">(function (o) {
+        var b = "https://api.autopilothq.com/anywhere/",
+            t = "60d6078465f84097bd75e2df0917af427b2b0138e2504d898fff1c6bcd413083", a = window.AutopilotAnywhere = {
+                _runQueue: [], run: function () {
+                    this._runQueue.push(arguments);
+                }
+            }, c = encodeURIComponent, s = "SCRIPT", d = document, l = d.getElementsByTagName(s)[0],
+            p = "t=" + c(d.title || "") + "&u=" + c(d.location.href || "") + "&r=" + c(d.referrer || ""),
+            j = "text/javascript", z, y;
+        if (!window.Autopilot) window.Autopilot = a;
+        if (o.app) p = "devmode=true&" + p;
+        z = function (src, asy) {
+            var e = d.createElement(s);
+            e.src = src;
+            e.type = j;
+            e.async = asy;
+            l.parentNode.insertBefore(e, l);
+        };
+        y = function () {
+            z(b + t + '?' + p, true);
+        };
+        if (window.attachEvent) {
+            window.attachEvent("onload", y);
+        } else {
+            window.addEventListener("load", y, false);
+        }
+    })({});</script>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1644902028886899');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1644902028886899&ev=PageView&noscript=1"
+    /></noscript>
+
+    <!-- Add Pixel Events to the button's click handler -->
+    <script type="text/javascript">
+        var button = document.getElementById('newLeadButton');
+        button.addEventListener(
+            'click',
+            function () {
+                fbq('track', 'Lead', {
+                    value: 1,
+                });
+            },
+            false
+        );
+    </script>
+
+    <!-- End Facebook Pixel Code -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72488505-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-72488505-1');
+    </script>
+
+
+</head>
+
+
+<body>
+<!-- Header Section Start -->
+<header id="header">
+    <div class="container-fluid headerlogoFluid">
+        <div class="container headerlogoContainer">
+            <div class="headerWrap">
+                <div class="headerWrapLogo">
+                    <a href="https://www.girlcrew.com"><img src="local-assets/img/logo.png" alt="logo"
+                                                            class="img-responsive"></a>
+                </div>
+                <div class="rightHeaderWrap">
+
+                    <ul>
+                        <li><a href="https://twitter.com/girlcrewhq" target="_blank"><img src="local-assets/img/twitter.png"
+                                                                          alt="twitter" class="img-responsive"></a></li>
+                        <li><a href="https://www.facebook.com/girlcrewhq" target="_blank"><img src="local-assets/img/facebook.png"
+                                                                               alt="facebook"
+                                                                               class="img-responsive"></a></li>
+                        <li><a href="https://www.instagram.com/girlcrewhq/" target="_blank"><img src="local-assets/img/ig.png" alt="ig"
+                                                                                 class="img-responsive"></a></li>
+                        <li><a href="https://www.pinterest.ie/GirlCrewHQ/" target="_blank"><img src="local-assets/img/pinterest.png"
+                                                                                alt="pinterest" class="img-responsive"></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Header Section End -->
+
+
+<!-- topSectionCityFluid Section Start-->
+<div class="container-fluid topSectionCityFluid topSectionCitySFFluid">
+
+</div>
+
+<div class="topSectionCitySFFluidMobile">
+    <img src="local-assets/img/SF.jpg" alt="SF" class="img-responsive">
+</div>
+<!-- topSectionCityFluid Section End-->
+
+
+<!-- inviteFluid Section Start-->
+<div class="container-fluid inviteFluid">
+    <div class="container inviteContainer">
+        <div class="row">
+            <div class="col-sm-6 col-md-6">
+                <h1 class="h1">Let’s do this,
+                    <span>San Francisco!</span>
+                </h1>
+                <p class="numberLaunch" id="currentWaitlist"></p>
+                <div class="persentStatisticWrap">
+                    <span id="currentWaitlistPersent" class="currentWaitlistPersent"></span>
+                    <div class="persentStatisticInner" id="progress">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <p class="descGirl text-center">GirlCrew will launch in San Francisco and host awesome events when we get 2,000
+                    on waitlist!
+                    Move up in the list by inviting your best girl friends! They'll thank you for it.</p>
+                <form id="participation_form">
+
+                    <div class="text-center">
+                        <input type="text" class="inputText firstName" id="firstName" placeholder="Enter first name">
+                        <input type="email" class="inputText" placeholder="Enter email address" id="signupEmail">
+                        <input type="submit" id="newLeadButton" class="addMeUp" value="Join the Crew!">
+                    </div>
+
+                </form>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<!-- inviteFluid Section end-->
+
+<!--bringingFriendsTopFluid start-->
+<div class="container-fluid bringingFriendsTopFluid">
+    <div class="container bringingFriendsTopContainer">
+        <h2 class="h2 text-center">You’re bringing friends along? We owe you one.</h2>
+
+    </div>
+</div>
+
+<!--bringingFriendsTopFluid end-->
+
+
+<!--bringingFriendsFluid Section Start-->
+<div class="container-fluid bringingFriendsFluid">
+    <div class="container bringingFriendsContainer">
+
+        <div class="row">
+            <div class="col-md-6 inviteLeft">
+                <div class="inviteBlock5 inviteBlock">
+                    <p class="numberFriends">Invite 1 or more friends: </p>
+                    <div class="inviteBlockInner">
+                        <div class="imgWrap"><img src="local-assets/img/drink.svg" alt="drink" class="img-responsive"></div>
+
+                        <p class="free">Get a free ticket to the launch party in your city
+                        </p>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-6 ">
+                <div class="inviteBlock10 inviteBlock">
+                    <p class="numberFriends">Invite 5 or more friends: </p>
+                    <div class="inviteBlockInner">
+                        <div class="imgWrap"><img src="local-assets/img/ticket.svg" alt="oneBoard" class="img-responsive"></div>
+
+                        <p class="free">Get a free ticket to the launch party in your city and an exclusive GirlCrew
+                            tote bag</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="inviteBlock15 inviteBlock">
+                    <p class="numberFriends">
+                        Invite 10 or more friends:</p>
+                    <div class="inviteBlockInner">
+                        <div class="imgWrap"><img src="local-assets/img/twoTickets.svg" alt="twoBoard" class="img-responsive"></div>
+
+                        <p class="free"> Get a free ticket to the launch party in your city, a bottle of Prosecco at the
+                            launch party and an exclusive GirlCrew tote bag</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <div class="inviteBlock20 inviteBlock">
+                    <p class="numberFriends numberFriendsSurprice">Top 5 Referrers Get VIP Access (Per City):</p>
+                    <div class="inviteBlockInner inviteBlockInnerSurprice">
+                        <div class="imgWrap imgWrapSurprice"><img src="local-assets/img/surprice.svg"
+                                                                  alt="drinkWithBoards" class="surpriceImg img-responsive"></div>
+
+                        <p class="free surpriceDesc">The top five referrers will get VIP treatment to the GirlCrew
+                            launch party. This
+                            will include a limo ride to the launch, a champagne reception, a goody bag plus other
+                            surprises!</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<!-- bringingFriendsFluid Section End-->
+
+<!--girlCrewIsFLuid start-->
+<div class="container-fluid girlCrewIsFLuid">
+    <div class="container girlCrewIsContainer">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="h2">Girl Crew is...</h2>
+            </div>
+        </div>
+        <div class="row ">
+
+
+            <div class="col-md-3 descCol">
+
+                <img src="local-assets/img/girls-networking.svg" alt="girls-networking">
+
+                <p>Networking with women</p>
+
+            </div>
+            <div class="col-md-3 descCol">
+                <img src="local-assets/img/brunch-champagne.svg" alt="brunch-champagne">
+                <p>Brunch with friends crew</p>
+            </div>
+
+            <div class="col-md-3 descCol">
+                <img src="local-assets/img/drum-set.svg" alt="music festival">
+                <p><span>San Francisco City Limits and SXSW</span> crew</p>
+            </div>
+
+            <div class="col-md-3 descCol">
+                <img src="local-assets/img/hiking-crew.svg" alt="hiking-crew">
+
+                <p><span>Hill country hiking</span> buddies</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--girlCrewIsFLuid end-->
+
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="h2">Testimonials</h2>
+                <div id="customers-testimonials" class="owl-carousel">
+
+                    <!--TESTIMONIAL 1 -->
+                    <div class="item">
+                        <div class="shadow-effect">
+                            <img class="img-circle"
+                                 src="local-assets/img/Testimonials/Megan%20Rose%20and%20Ashley.jpg" alt="Ashley Ehrie">
+                            <p class="name">Ashley Ehrie</p>
+                            <p> We met when the Seattle GirlCrew had just started and now two years later we’ve traveled
+                                Europe together.
+                            </p>
+                        </div>
+                        <div class="testimonial-name">Seattle, WA, USA</div>
+                    </div>
+                    <!--END OF TESTIMONIAL 1 -->
+
+                    <!--TESTIMONIAL 2 -->
+                    <div class="item">
+                        <div class="shadow-effect">
+                            <img class="img-circle"
+                                 src="local-assets/img/Testimonials/Dia%20LeDesma.jpg" alt="Dia Ledesma">
+                            <p class="name">Dia Ledesma</p>
+
+                            <p> One of my best memories of GirlCrew was when 170-180 people turned up at a singles event
+                                I organised.
+                            </p>
+                        </div>
+                        <div class="testimonial-name">Dublin, Ireland</div>
+                    </div>
+                    <!--END OF TESTIMONIAL 2-->
+
+                    <!--TESTIMONIAL 3 -->
+                    <div class="item">
+                        <div class="shadow-effect">
+                            <img class="img-circle"
+                                 src="local-assets/img/Testimonials/ilaina%20headshot.jpg"
+                                 alt="Ilaina Khairulzaman">
+                            <p class="name">Ilaina Khairulzaman</p>
+                            <p> I’ve met such a fabulous, eclectic group of women through the coffee crawls, and I’m
+                                really grateful for that.
+                            </p>
+                        </div>
+                        <div class="testimonial-name">Dublin, Ireland</div>
+                    </div>
+                    <!--END OF TESTIMONIAL 3 -->
+                    <!--TESTIMONIAL 4 -->
+                    <div class="item">
+                        <div class="shadow-effect">
+                            <img class="img-circle"
+                                 src="local-assets/img/Testimonials/Jackie%20Carter.jpg"
+                                 alt="Jackie Carter">
+                            <p class="name">Jackie Carter</p>
+                            <p>
+                                I have made countless friends through GirlCrew Melbourne. We’ve gone on interstate
+                                trips, camping, wine tours...just the things friends do!
+                            </p>
+                        </div>
+                        <div class="testimonial-name">Melbourne, Australia</div>
+                    </div>
+                    <!--END OF TESTIMONIAL 4 -->
+                    <!--TESTIMONIAL 5 -->
+                    <div class="item">
+                        <div class="shadow-effect">
+                            <img class="img-circle"
+                                 src="local-assets/img/Testimonials/Charli%20Chaplin.jpg"
+                                 alt="Charli Chaplin">
+                            <p class="name">Charli Chaplin</p>
+                            <p> I have met my three best friends in London through GirlCrew London.
+                            </p>
+                        </div>
+                        <div class="testimonial-name">London, UK</div>
+                    </div>
+                    <!--END OF TESTIMONIAL 5 -->
+
+                    <!--TESTIMONIAL 6 -->
+                    <div class="item">
+                        <div class="shadow-effect">
+                            <img class="img-circle"
+                                 src="local-assets/img/Testimonials/Andy%20Jacobs.jpg"
+                                 alt="Andy Jacobs">
+                            <p class="name">Andy Jacobs</p>
+                            <p>We planned a dinner and drinks, where I met the girls who would have a major impact on
+                                my life from that day on.
+                            </p>
+                        </div>
+                        <div class="testimonial-name">Dublin, Ireland</div>
+                    </div>
+                    <!--END OF TESTIMONIAL 6 -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END OF TESTIMONIALS -->
+
+
+<!-- girlGetAppFluid section start-->
+<div class="container-fluid girlGetAppFluid">
+    <div class="container girlGetAppContainer">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 text-center getAppCol">
+                <img src="local-assets/img/girlGrewGroup1.png" alt="girlGrewGroup1"
+                     class="img-responsive girlCrewImg">
+            </div>
+            <div class="col-md-4 col-sm-6 text-center getAppCol">
+                <img src="local-assets/img/girlGrewGroup2.png" alt="girlGrewGroup2"
+                     class="img-responsive events">
+            </div>
+            <div class="col-md-4 col-sm-12 getAppColRight getAppCol text-center girlGetAppRight">
+                <h4 class="h4">Invite <span>your</span> friends
+                    get <span>free drinks</span> at our <span>San Francisco </span>Launch Party!
+                </h4>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- girlGetAppFluid section end-->
+
+
+<!-- girlFooterFluid Section start-->
+<div class="container-fluid girlFooterFluid">
+    <div class="container girlFooterContainer">
+        <ul>
+            <li><a href="https://www.girlcrew.com/contact/" target="_blank">Contact us</a></li>
+            <li><a href="https://www.girlcrew.com/careers/" target="_blank">Careers</a></li>
+            <li><a href="https://www.girlcrew.com/press-pack/" target="_blank">Press Pack</a></li>
+            <li><a href="https://www.girlcrew.com/terms-conditions/" target="_blank">TS & CS</a></li>
+            <li><a href="https://www.girlcrew.com/privacy-policy/" target="_blank">Privacy Policy</a></li>
+            <li><a href="https://www.girlcrew.com/social-media-ad-terminology/" target="_blank">Social Advertising</a></li>
+        </ul>
+    </div>
+</div>
+<!-- girlFooterFluid Section start-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="local-assets/js/bootstrap.min.js"></script>
+<script src="local-assets/js/libs/clipboard.min.js"></script>
+<script src="local-assets/js/clipboardScript.js"></script>
+<script src="local-assets/js/menuScriptLocal.js"></script>
+
+<script>
+    jQuery(document).ready(function ($) {
+        "use strict";
+        //  TESTIMONIALS CAROUSEL HOOK
+        $('#customers-testimonials').owlCarousel({
+            loop: true,
+            center: true,
+            items: 3,
+            margin: 0,
+            autoplay: true,
+            dots: true,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1170: {
+                    items: 3
+                }
+            }
+        });
+    });
+</script>
+
+
+<!-- VL snippet -->
+<script>!function (a, b, c, d, t) {
+    var e, f = a.getElementsByTagName("head")[0];
+    if (!a.getElementById(c)) {
+        if (e = a.createElement(b), e.id = c, e.setAttribute("data-vrlps-ucid", d), e.setAttribute("data-vrlps-version", "2"), e.setAttribute("data-vrlps-template", t), e.src = "https://app.viral-loops.com/popup_assets/js/vl_load_v2.min.js", window.ub) {
+            jQuery = null, $ = null;
+            var g = a.createElement(b);
+            g.src = "https://code.jquery.com/jquery-2.2.4.min.js", f.appendChild(g)
+        }
+        f.appendChild(e);
+        var h = a.createElement("link");
+        h.rel = "stylesheet", h.type = "text/css", h.href = "https://app.viral-loops.com/static/vl-loader.css", f.appendChild(h);
+        var i = a.createElement("div");
+        i.id = "vl-overlay", i.style.display = "none";
+        var j = a.createElement("div");
+        j.id = "vl-loader", i.appendChild(j), a.addEventListener("DOMContentLoaded", function (b) {
+            a.body.appendChild(i);
+            for (var c = a.getElementsByClassName("vrlps-trigger"), d = 0; d < c.length; d++) c[d].removeAttribute("href"), c[d].onclick = function () {
+                a.getElementById("vl-overlay").style.display = "block"
+            };
+            var e = a.querySelectorAll("[data-vl-widget='popupTrigger']");
+            [].forEach.call(e, function (b) {
+                var c = a.createElement("div");
+                c.className = "vl-embedded-cta-loader", b.appendChild(c)
+            })
+        })
+    }
+}(document, "script", "vrlps-js", "8Jw_kEAzKoODX2CZXBJefEHH3pc", "waitlist");</script>
+<script>
+    $("#participation_form").submit(function (e) {
+        e.preventDefault();
+        participate(document.getElementById("signupEmail").value, document.getElementById("firstName").value);
+    });
+
+    function participate(signupEmail, firstName) {
+        if (!signupEmail || !firstName) return;
+        VL.options.form_fields.form_email = signupEmail;
+        VL.options.form_fields.form_firstName = firstName;
+        //submit the participant to Viral Loops
+        VL.createLead(function () { //TODO change the url
+            console.log("VL signup");
+            location.href = "http://girlcrew.com/sf-refer";
+        });
+    }
+
+    //if they are already registered, redirect them to the referral page
+    window.addEventListener("vl_ready", function (e) {
+        if (VL.refCode) { //TODO change the url
+            location.href = "http://girlcrew.com/sf-refer";
+        }
+    }, false);
+
+    $.get("https://app.viral-loops.com/api/v2/data?publicToken=8Jw_kEAzKoODX2CZXBJefEHH3pc&params%5Baccessors%5D=rank", function (data) {
+        var initialNumber = 99; //TODO change the initial number
+        var entries = initialNumber + data.rank;
+        if (entries >= 2000) {
+            progressBar(100);
+        } else {
+            progressBar(Math.floor((entries / 2000) * 100))
+        }
+        $("#currentWaitlist").text(entries + " of 2000 San Francisco Crew Members");
+        $("#currentWaitlistPersent").text("( " + 100 * entries / 2000 + " % of goal )");
+
+    });
+
+    function progressBar(percent) {
+        var bar = document.getElementById("progress");
+        bar.style.width = percent + "%";
+    }
+</script>
+
+</body>
+</html>
